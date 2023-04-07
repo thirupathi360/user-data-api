@@ -46,8 +46,11 @@
 						<applicationName>${appname}</applicationName>
 						<environment>${environment}</environment>
 						<workers>${workers}</workers>
+						<workerType>${vCore}</workerType>
 						<objectStoreV2>true</objectStoreV2>
 					</cloudHubDeployment>
+					
+					
 				</configuration>
 			</plugin>
 		</plugins>
